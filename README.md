@@ -38,3 +38,8 @@ Courses | Instructor | Type | Duration |
 
 [Ken Jee's Data Science Project from Scratch](https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t)
 
+sqlbelle
+
+Thu Vu data analytics
+
+Simon Sez IT 
