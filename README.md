@@ -40,8 +40,25 @@ Courses | Instructor | Type | Duration |
 
 sqlbelle
 
-Thu Vu data analytics
+[Thu Vu data analytics]()
 
-Simon Sez IT 
+[Simon Sez IT ]()
 
-Datascience Concepts
+[Datascience Concepts]()
+
+[Data Interview Pro]()
+
+[Data 360 YP]()
+
+[Alex The Analyst]()
+
+[Data Science Jay ]()
+
+[Data Professor Lu]()
+
+[Kaggle]()
+
+[Python Programmer]()
+
+
+
