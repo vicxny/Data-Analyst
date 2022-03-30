@@ -31,6 +31,8 @@ Courses | Instructor | Type | Duration |
 
 [365 Data Science](https://365datascience.com/courses/)
 
+[Plural Sight](https://www.pluralsight.com/)
+
 
 ## Data Analytics Youtuber
 
