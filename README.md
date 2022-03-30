@@ -17,6 +17,7 @@ Courses | Offered by | Type | Month | Pace |
 
 ## Data Analytics Udemy
 
+[Udemy](https://www.udemy.com/home/my-courses/learning/)
 Courses | Instructor | Type | Duration |
 :-- | :--: | :--: | :--: |
 [Automate the Boring Stuff with Python Programming](https://www.udemy.com/course/automate/) | Al Sweigart | Python | 9.5 hours | 
@@ -25,3 +26,12 @@ Courses | Instructor | Type | Duration |
 [Tableau 2020 A-Z: Hands-On Tableau Training for Data Science](https://www.udemy.com/course/tableau10/) | Kirill Eremenko | Tableau | 9 hours | 
 [Tableau 20 Advanced Training: Master Tableau in Data Science](https://www.udemy.com/course/tableau10-advanced/) | Kirill Eremenko | Tableau | 10 hours | 
 [Complete Machine Learning & Data Science Bootcamp 2022](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/) | Andrei Neagoie | Data Science | 43 hours | 
+
+## Data Analytics Website
+
+[365 Data Science](https://365datascience.com/courses/)
+
+
+## Data Analytics Youtuber
+
+
