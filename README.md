@@ -5,6 +5,7 @@ What I used to study
 
 ## Data Analytics Coursera
 
+[Coursera](https://www.coursera.org/) 
 Courses | Offered by | Type | Month | Pace |
 :-- | :--: | :--: | :--: | :--: |
 [Meta Marketing Analytics Professional Certificate](https://www.coursera.org/professional-certificates/facebook-marketing-analytics) | Meta | Data Analytics | Approximately 7 months | 4 hours/week | 
@@ -14,6 +15,7 @@ Courses | Offered by | Type | Month | Pace |
 [Excel to MySQL: Analytic Techniques for Business Specialization](https://www.coursera.org/specializations/excel-mysql) | Duke Univerity | Data Analytics | Approximately 7 months | 4 hours/week | 
 [Data Engineering, Big Data, and Machine Learning on GCP Specialization](https://www.coursera.org/specializations/gcp-data-machine-learning) | Google | Data Science | Approximately 5 months | 3 hours/week | 
 
+## Data Analytics Udemy
 
 Courses | Instructor | Type | Duration |
 :-- | :--: | :--: | :--: |
