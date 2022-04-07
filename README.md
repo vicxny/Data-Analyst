@@ -33,6 +33,8 @@ Courses | Instructor | Type | Duration |
 
 [Frederik Müller](https://www.youtube.com/channel/UCuDWqzSSHgHkD0zBwrIXSNQ/playlists)
 
+[How to learn SQL for data science interview (the minimize effort maximize outcome way)](https://www.youtube.com/watch?v=vaD3ZFFNwhM)
+
 ## Data Analytics Website
 
 [365 Data Science](https://365datascience.com/courses/)
