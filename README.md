@@ -31,6 +31,8 @@ Courses | Instructor | Type | Duration |
 
 [Stratascratch](https://www.stratascratch.com/)
 
+[Frederik Müller](https://www.youtube.com/channel/UCuDWqzSSHgHkD0zBwrIXSNQ/playlists)
+
 ## Data Analytics Website
 
 [365 Data Science](https://365datascience.com/courses/)
