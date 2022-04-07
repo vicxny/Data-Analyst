@@ -27,6 +27,10 @@ Courses | Instructor | Type | Duration |
 [Tableau 20 Advanced Training: Master Tableau in Data Science](https://www.udemy.com/course/tableau10-advanced/) | Kirill Eremenko | Tableau | 10 hours | 
 [Complete Machine Learning & Data Science Bootcamp 2022](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/) | Andrei Neagoie | Data Science | 43 hours | 
 
+## SQL
+
+[Stratascratch](https://www.stratascratch.com/)
+
 ## Data Analytics Website
 
 [365 Data Science](https://365datascience.com/courses/)
