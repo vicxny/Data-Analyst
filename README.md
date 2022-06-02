@@ -42,6 +42,7 @@ Courses | Instructor | Type | Duration |
 
 [Plural Sight](https://www.pluralsight.com/)
 
+[Kaggle]()
 
 ## Data Analytics Youtuber
 
