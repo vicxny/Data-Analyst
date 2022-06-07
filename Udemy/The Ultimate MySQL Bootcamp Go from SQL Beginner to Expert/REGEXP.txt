@@ -1,0 +1,21 @@
+SELECT * 
+FROM customers
+WHERE last_name REGEX 'field' //has
+
+WHERE last_name REGEX '^field' //start with
+
+WHERE last_name REGEX 'field$' //end with
+
+WHERE last_name REGEX '^field | sam'// or
+
+WHERE last_name REGEX '[ga]e' // ge or ga 
+
+WHERE last_name REGEX 'e[ga]' // eg or ea
+
+WHERE last_name REGEX '[a-c]e'// ae,be, or ce
+
+--^ beginning
+--$ end 
+--| or
+--[]
+--[-]

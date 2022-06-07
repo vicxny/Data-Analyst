@@ -1,0 +1,54 @@
+https://www.youtube.com/watch?v=HXV3zeQKqGY&t=4941s
+https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert
+
+SHOW databases;  //To show database
+
+CREATE DATABASE database_name; //To create database
+
+DROP DATABASE database_name; //To delete database
+
+USE database_name; //To use database
+
+SELECT database_name; //To see current database
+
+SELECT //column
+FROM //table
+WHERE // function
+
+CREATE TABLE tablename (
+    column_name data_type,
+    column_name data_type
+  );
+
+Example
+CREATE DATABASE cat_app; //To create database
+USE cat_app; //to use database
+CREATE TABLE cats (
+    name VARCHAR(100),
+    age INT
+);
+
+SHOW TABLES; // show table
+
+SHOW COLUMNS FROM cats; //show columns of table
+or
+DESC cats; //show columns of table
+
+Drop Table cats //delete table
+
+Example 
+Create a pastries table
+It should include 2 columns: name and quantity.  Name is 50 characters max.
+Inspect your table/columns in the CLI
+Delete your table!
+
+Solution
+CREATE TABLE pastries (
+    name VARCHAR(50),
+    quantity INT
+);
+
+SHOW TABLES;
+DESC pastries;
+
+Drop Table pastries;

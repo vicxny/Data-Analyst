@@ -1,0 +1,175 @@
+https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/learn/lecture/7048186#content
+
+SELECT * 
+FROM cats;
+
+
+
+INSERT
+
+INSERT INTO cats(name, age) VALUES("JETSON", 7);
+
+
+Example 
+CREATE TABLE cats(name VARCHAR(50), age INT)
+INSERT INTO cats(name, age) VALUES("Blue", 1);
+INSERT INTO cats(age, name) VALUES(2, "Draci");
+SELECT * FROM cats;
+
+CODE: Multiple Insert
+INSERT INTO table_name (column_name, column_name) 
+VALUES  (value, value), 
+        (value, value), 
+        (value, value);
+
+Example 
+Create a people table 
+first_name: 20 char limit
+last_name: 20 char limit
+age
+
+SOLUTION 
+CREATE TABLE people(first_name VARCHAR(20), last_name VARCHAR(20), age INT)
+
+INSERT INTO people(first_name, last_name, age) VALUES("Tina", "Blecher", 13)
+INSERT INTO people(first_name, last_name, age) VALUES("Bob", "Blecher", 42)
+
+INSERT INTO people(first_name, last_name, age) 
+VALUES  ("Calvin", "Blecher", 43),
+        ("Linda", "Blecher", 46),
+        ("Sam", "Blecher", 70);
+
+SELECT * FROM people;
+DROP TABLE people; 
+show tables; 
+
+
+
+WARNINGS
+
+SHOW WARNINGS;
+
+
+
+NULL
+CREATE TABLE cats
+  (
+    name VARCHAR(100),
+    age INT 
+  ); //Null will be populate
+
+Example
+CREATE TABLE cats2
+  (
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL
+  ); //Null will be not populate
+
+DESC cats2
+SELECT * FROM cats2
+
+Now try inserting an ageless cat:
+INSERT INTO cats2(name) VALUES('Texas'); //Not Null cats age = 0 // int is 0
+
+Do the same for a nameless cat:
+INSERT INTO cats2(age) VALUES(7); //cats name = blank //varchar is blank
+
+NULL is a permitted value
+
+
+DEFAULT
+
+Example
+CREATE TABLE cats3
+  (
+    name VARCHAR(20) DEFAULT 'no name provided',
+    age INT DEFAULT 99
+  );
+
+DESC cats3
+
+
+
+
+PRIMARY KEY
+
+Example
+Define a table with a PRIMARY KEY constraint:
+
+CREATE TABLE unique_cats
+  (
+    cat_id INT NOT NULL,
+    name VARCHAR(100),
+    age INT,
+    PRIMARY KEY (cat_id)
+  );
+DESC unique_cats; 
+
+Insert some new cats:
+
+INSERT INTO unique_cats(cat_id, name, age) VALUES(1, 'Fred', 23);
+ 
+INSERT INTO unique_cats(cat_id, name, age) VALUES(2, 'Louise', 3);
+ 
+INSERT INTO unique_cats(cat_id, name, age) VALUES(1, 'James', 3); //get error because of cat_id
+
+
+
+
+Increment ID 
+
+Example
+CREATE TABLE unique_cats2
+  (
+    cat_id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100),
+    age INT,
+    PRIMARY KEY (cat_id)
+  );
+DESC unique_cats; 
+
+INSERT INTO unique_cats2(name, age) VALUES('Jiff', 3);
+
+INSERT INTO unique_cats2(name, age) VALUES('Skippy', 4);
+
+What does mandatory mean? NOT NULL
+What does not mandatory mean?
+How to default?
+How to create primary key?
+PRIMARY KEY(id)
+
+Practice
+Define an Employees table, with the following fields:
+id - number(automatically increments), mandatory, primary key
+last_name - text, mandatory
+first_name - text, mandatory
+middle_name - text, not mandatory
+age - number mandatory
+current_status - text, mandatory, defaults to 'employed'
+
+SOLUTION
+CREATE TABLE Employees(
+  id INT AUTO_INCREMENT NOT NULL, 
+  PRIMARY_Key(id),
+  last_name VARCHAR(225) NOT NULL,'
+  first_name VARCHAR(225) NOT NULL,
+  middle_name VARCHAR(225),
+  age INT NOT NULL,
+  current_status VARCHAR(225) NOT NULL DEFAULT 'Employed' 
+);
+
+or
+CREATE TABLE employees (
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    middle_name VARCHAR(255),
+    age INT NOT NULL,
+    current_status VARCHAR(255) NOT NULL DEFAULT 'employed'
+);
+
+Test 
+INSERT INTO employees(first_name, last_name, age) 
+VALUES ('Dora', 'Smith', 58);// 
+
+SELECT * FROM employees;

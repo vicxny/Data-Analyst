@@ -1,0 +1,160 @@
+--CODE: Running SQL Files
+--first_file.sql 
+CREATE TABLE cats
+    (
+        cat_id INT NOT NULL AUTO_INCREMENT,
+        name VARCHAR(100),
+        age INT,
+        PRIMARY KEY(cat_id)
+    );
+--save file
+li // list of sources 
+ctrl-c //quit cli 
+
+mysql-ctl cli // start cli 
+ 
+use cat_app;
+ 
+source first_file.sql // run the file
+ 
+DESC cats; // see table
+ 
+--New folder testing/insert.sql
+ 
+INSERT INTO cats(name, age)
+VALUES('Charlie', 17);
+ 
+INSERT INTO cats(name, age)
+VALUES('Connie', 10);
+ 
+SELECT * FROM cats;
+ 
+source testing/insert.sql
+
+https://dev.mysql.com/doc/refman/8.0/en/string-functions.html
+
+--CONCAT
+
+SELECT 
+    CONCAT_WS(' - ', title, author_fname, author_lname) 
+FROM books;
+
+SELECT author_fname AS first, author_lname AS last, 
+  CONCAT(author_fname, ', ', author_lname) AS full
+FROM books;
+
+--CODE: Introducing SUBSTRING or SUBSTR
+SELECT SUBSTRING('Hello World', 1, 4); //Hell
+ 
+SELECT SUBSTRING('Hello World', 7); //World
+
+SELECT SUBSTRING('Hello World', -3); //rld
+
+SELECT SUBSTRING(title, 1, 10) FROM books;
+
+--Practice
+First 10 words cloumn short title from table books then add ...
+
+SELECT CONCAT(SUBSTRING(title, 1, 10),'...') AS 'short title'
+FROM books;
+ 
+source book_code.sql
+
+--REPLACE 
+--Case sensitive
+
+SELECT REPLACE('Hello World', 'Hell', '%$#@'); //%$#@o World
+SELECT REPLACE('Hello World', 'o', '0'); //Hell0 W0rld
+SELECT REPLACE('HellO World', 'o', '0'); //Hello W0rld
+SELECT REPLACE('cheese bread coffee milk', ' ', ' and '); 
+
+--REVERSE
+SELECT REVERSE('Hello World');
+ 
+SELECT REVERSE('meow meow');
+ 
+SELECT REVERSE(author_fname) FROM books;
+ 
+SELECT CONCAT('woof', REVERSE('woof'));
+ 
+SELECT CONCAT(author_fname, REVERSE(author_fname)) FROM books;
+
+--CHAR LENGTH
+SELECT CHAR_LENGTH('Hello World');
+ 
+SELECT author_lname, CHAR_LENGTH(author_lname) AS 'length' FROM books;
+ 
+SELECT CONCAT(author_lname, ' is ', CHAR_LENGTH(author_lname), ' characters long') FROM books;
+
+"Egger is 6 characters long"
+
+-- UPPER and LOWER
+SELECT UPPER('Hello World');
+ 
+SELECT LOWER('Hello World');
+ 
+SELECT UPPER(title) FROM books;
+ 
+SELECT CONCAT('MY FAVORITE BOOK IS ', UPPER(title)) FROM books;
+ 
+SELECT CONCAT('MY FAVORITE BOOK IS ', LOWER(title)) FROM books;
+
+SELECT UPPER(CONCAT(author_fname, ' ', author_lname)) AS "full name in caps"
+FROM books;
+
+--String Function Challenge
+/*Reverse and Uppercase the following sentence
+"Why does my cat look at me with such hatred?" */
+
+SELECT REVERSE(UPPER("Why does my cat look at me with such hatred?"))
+
+
+/*What Does This Print Out?
+SELECT
+  REPLACE
+  (
+  CONCAT('I', ' ', 'like', ' ', 'cats'), ' ', '-'
+  );
+*/
+"I-like-cats"
+
+-- Replace spaces in title with '->'
+SELECT REPLACE(title),'->', " ";
+
+
+--Print out forward and reverse
+SELECT name AS forward, 
+  REVERSE(name) AS backwards
+FROM books; 
+
+--full name in caps 
+SELECT UPPER(CONCAT(firstName," ", lastName)) AS "full name in caps"
+FROM books;
+
+--Make This Happen!
+-- --+--------------------------------------------------------------------------+
+-- | The Namesake was released in 2003                                        |
+-- | Norse Mythology was released in 2016                                     |
+-- | American Gods was released in 2001  
+
+SELECT CONCAT(title," was released in ",year) AS blurb
+FROM books;
+
+--Print book titles and the length of each title
+SELECT title, LENGTH(title) AS "character count"
+FROM books;
+
+--Last One, I Promise!
+
+-- +---------------+-------------+--------------+
+-- | short title   | author      | quantity     |
+-- +---------------+-------------+--------------+
+-- | American G... | Gaiman,Neil | 12 in stock  |
+-- | A Heartbre... | Eggers,Dave | 104 in stock |
+-- +---------------+-------------+--------------+
+
+SELECT 
+  CONCAT(SUBSTRING(title, 1, 10), '...') AS 'short title',
+   CONCAT(author_lname, ',', author_fname) AS author,
+   CONCAT(stock_quantity, ' in stock') AS quantity
+FROM books;

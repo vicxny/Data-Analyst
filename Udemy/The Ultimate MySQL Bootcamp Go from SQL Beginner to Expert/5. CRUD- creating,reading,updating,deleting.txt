@@ -1,0 +1,103 @@
+DROP TABLE cats;
+
+CREATE TABLE cats 
+  ( 
+     cat_id INT NOT NULL AUTO_INCREMENT, 
+     name   VARCHAR(100), 
+     breed  VARCHAR(100), 
+     age    INT, 
+     PRIMARY KEY (cat_id) 
+  ); 
+
+or 
+CREATE TABLE cats 
+  ( 
+     cat_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+     name   VARCHAR(100), 
+     breed  VARCHAR(100), 
+     age    INT, 
+     
+  ); 
+
+desc cats
+INSERT INTO cats(name, breed, age) 
+VALUES ('Ringo', 'Tabby', 4),
+       ('Cindy', 'Maine Coon', 10),
+       ('Dumbledore', 'Maine Coon', 11),
+       ('Egg', 'Persian', 4),
+       ('Misty', 'Tabby', 13),
+       ('George Michael', 'Ragdoll', 9),
+       ('Jackson', 'Sphynx', 7);
+
+
+
+SELECT
+SELECT * FROM cats//all column
+
+SELECT name FROM cats // name column
+SELECT name,age FROM cats// name&age column order matter
+
+WHERE
+
+SELECT name FROM cats WHERE age = 4;
+SELECT name FROM cats WHERE name = 'egg';// case insensitive
+
+Excercise
+Show only cat_id
+SELECT cat_id FROM cat;
+
+Show only name and breed
+SELECT name, breed FROM cat;
+
+Show only name and age of Tabby cats
+SELECT name, age FROM cat WHERE breed = 'Tabby';
+
+Show only cat_id and age is same as age (cat_id = age)
+SELECT cat_id, age FROM cat WHERE cat_id = age;
+
+SELECT * FROM cats WHERE cat_id=age; 
+
+ALIASES
+SELECT cat_id AS id, name FROM cats;
+ 
+SELECT name AS 'cat name', breed AS 'kitty breed' FROM cats;
+ 
+DESC cats;
+
+UPDATE Command
+UPDATE cats SET breed='Shorthair' WHERE breed='Tabby'; //change Tabby to Shorthair
+UPDATE cats SET age=14 WHERE name='Misty'; //change misty age to 14
+
+Tip use SELECT WHERE to know if you are selecting the correct column
+
+Excercise
+Change Jackson name to Jack
+SELECT * FROM cats WHERE name='Jackson';
+UPDATE cats SET name='Jackson' WHERE name='Jack'
+
+Change Ringo breed to british short hair
+SELECT * FROM cats WHERE name='ringo';
+UPDATE cats SET breed='british short hair' WHERE name='ringo'
+
+Update both maincoon to age 12
+SELECT * FROM cats WHERE breed='maincoon';
+UPDATE cat set age = 12 WHERE breed='maincoon'
+
+DELETE
+SELECT * FROM cats;
+SELECT * FROM cats WHERE name='egg';// aleays see what your gonna delete before deleting
+DELETE FROM cats WHERE name='egg';
+SELECT * FROM cats;
+DELETE FROM cats;
+
+Practice
+Delete all cats that are 4 year old.
+DELETE FROM cats WHERE age = 4;
+
+Delete cats whose age is the same as their cat_id.
+DELETE FROM cats WHERE age = cat_id;
+
+Delete all cats.
+DELETE * FROM cats;
+
+
