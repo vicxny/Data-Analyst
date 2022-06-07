@@ -5,7 +5,7 @@ What I used to study
 
 ## Data Analytics Coursera
 
-[Coursera](https://www.coursera.org/) 
+[Coursera](https://github.com/vicxny/Coursera) 
 Courses | Offered by | Type | Month | Pace |
 :-- | :--: | :--: | :--: | :--: |
 [Meta Marketing Analytics Professional Certificate](https://www.coursera.org/professional-certificates/facebook-marketing-analytics) | Meta | Data Analytics | Approximately 7 months | 4 hours/week | 
@@ -18,7 +18,7 @@ Courses | Offered by | Type | Month | Pace |
 
 ## Data Analytics Udemy
 
-[Udemy](https://www.udemy.com/home/my-courses/learning/)
+[Udemy](https://github.com/vicxny/Udemy)
 Courses | Instructor | Type | Duration |
 :-- | :--: | :--: | :--: |
 [Automate the Boring Stuff with Python Programming](https://www.udemy.com/course/automate/) | Al Sweigart | Python | 9.5 hours | 
