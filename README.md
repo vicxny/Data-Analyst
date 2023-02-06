@@ -1,11 +1,14 @@
 # Data-Analyst
 What I used to study
 
+## Video
 
+[IBM Data Analyst Complete Course | Data Analyst Tutorial For Beginners](https://www.youtube.com/watch?v=1PAy6d16ADQ)
 
 ## Data Analytics Coursera
 
 [Coursera](https://github.com/vicxny/Coursera) 
+
 ### Certificate
 
 Courses | Offered by | Type | Month | Pace |
