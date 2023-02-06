@@ -3,6 +3,8 @@ What I used to study
 
 ## Video
 
+[How to Become a Data Analyst in 2023 (Completely FREE!)](https://www.youtube.com/watch?v=CUBfrdDwznQ)
+
 [IBM Data Analyst Complete Course | Data Analyst Tutorial For Beginners](https://www.youtube.com/watch?v=1PAy6d16ADQ)
 
 ## Data Analytics Coursera
