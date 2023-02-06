@@ -27,6 +27,7 @@ Courses | Offered by | Type | Month | Pace |
 Courses | Offered by | Type | Month | Pace |
 :-- | :--: | :--: | :--: | :--: |
 [Python 3 Programming Specialization](https://www.coursera.org/specializations/python-3-programming) | University of Michigan | Python | Approximately 5 months | 7 hours/week | 
+[Python, Bash and SQL Essentials for Data Engineering Specialization](https://www.coursera.org/specializations/python-bash-sql-data-engineering-duke#courses)| Duke University| Python | Approximately 4 months | 6 hours/week | 
 [Excel to MySQL: Analytic Techniques for Business Specialization](https://www.coursera.org/specializations/excel-mysql) | Duke Univerity | Data Analytics | Approximately 7 months | 4 hours/week |
 [Data Engineering, Big Data, and Machine Learning on GCP Specialization](https://www.coursera.org/specializations/gcp-data-machine-learning) | Google | Data Science | Approximately 5 months | 3 hours/week |
 [Data Analysis with R Specialization](https://www.coursera.org/specializations/statistics#courses) | Duke Univerity | Data Analytics | Approximately 5 months | 2 hours/week |
@@ -93,4 +94,6 @@ Courses | Instructor | Type | Duration |
 [Python Programmer]()
 
 [Steven Skienna](https://www.youtube.com/user/StevenSkiena/playlists)
+
+[Phillip Burton](https://www.udemy.com/user/aquaviola/)
 
