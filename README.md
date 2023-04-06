@@ -34,6 +34,7 @@ Courses | Offered by | Type | Month | Pace |
 [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python#courses) | University of Michigan | Data Science | Approximately 5 months | 7 hours/week |
 [Data Warehousing for Business Intelligence Specialization](https://www.coursera.org/specializations/data-warehousing#courses) | University of Colorado | Data Science | Approximately 7 months | 4 hours/week |
 [Data Visualization with Tableau Specialization](https://www.coursera.org/specializations/data-visualization?irclickid=Q4ZU1OV2uxyITYj1oJXqE0rLUkD2fsTGVRPA3w0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3032075&utm_content=b2c) | UC Davis | Data Science | Approximately 7 months | 4 hours/week |
+[Learn SQL Basics for Data Science Specialization](https://www.coursera.org/specializations/learn-sql-basics-data-science#courses) | UC Davis | Data Science | Approximately 7 months | 4 hours/week |
 [Data Science: Foundations using R Specialization](https://www.coursera.org/specializations/data-science-foundations-r?irclickid=Q4ZU1OV2uxyITYj1oJXqE0rLUkD2fsQOVRPA3w0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3032075&utm_content=b2c) | John Hopkins | Data Science | Approximately 7 months | 4 hours/week |
 
 
