@@ -19,6 +19,7 @@ Courses | Offered by | Type | Month | Pace |
 [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics) | Google | Data Analytics | Approximately 6 months | 10 hours/week |
 [Google Advanced Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-advanced-data-analytics) | Google | Data Analytics | Approximately 6 months | 10 hours/week |
 [Google Business Intelligence Professional Certificate](https://www.coursera.org/professional-certificates/google-business-intelligence#courses) | Google | Data Analytics | Approximately 6 months | 10 hours/week |[IBM Data Analyst Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-analyst) | IBM | Data Analytics | Approximately 11 months | 3 hours/week |
+[IBM Data Analyst Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-analyst) | IBM | Data Analytics | Approximately 11 months | 3 hours/week |
 [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) | IBM | Data Science | Approximately 11 months | 4 hours/week |
 [IBM Data Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-engineer) | IBM | Data Engineer | Approximately 15 months | 3 hours/week |
 [Meta Database Engineer Professional Certificate](https://www.coursera.org/professional-certificates/meta-database-engineer) | Meta | Database Engineer | Approximately 10 months | 3 hours/week |
