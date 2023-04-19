@@ -28,6 +28,7 @@ Courses | Offered by | Type | Month | Pace |
 
 Courses | Offered by | Type | Month | Pace |
 :-- | :--: | :--: | :--: | :--: |
+[Python for Everybody](https://www.coursera.org/specializations/python#courses) | University of Michigan | Python | Approximately 8 months | 3 hours/week | 
 [Python 3 Programming Specialization](https://www.coursera.org/specializations/python-3-programming) | University of Michigan | Python | Approximately 5 months | 7 hours/week | 
 [Python, Bash and SQL Essentials for Data Engineering Specialization](https://www.coursera.org/specializations/python-bash-sql-data-engineering-duke#courses)| Duke University| Python | Approximately 4 months | 6 hours/week | 
 [Excel to MySQL: Analytic Techniques for Business Specialization](https://www.coursera.org/specializations/excel-mysql) | Duke Univerity | Data Analytics | Approximately 7 months | 4 hours/week |
