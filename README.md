@@ -61,6 +61,8 @@ Courses | Instructor | Type | Duration |
 
 [DataLemur](https://datalemur.com/)
 
+[HackerRank](https://www.hackerrank.com/dashboard)
+
 [Frederik Müller](https://www.youtube.com/channel/UCuDWqzSSHgHkD0zBwrIXSNQ/playlists)
 
 [How to learn SQL for data science interview (the minimize effort maximize outcome way)](https://www.youtube.com/watch?v=vaD3ZFFNwhM)
