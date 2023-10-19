@@ -7,6 +7,8 @@ What I used to study
 
 [IBM Data Analyst Complete Course | Data Analyst Tutorial For Beginners](https://www.youtube.com/watch?v=1PAy6d16ADQ)
 
+[Fundamental](https://bittersweet-mall-f00.notion.site/Fundamentals-b41c33ba1ab04e858a2be06946510c7e)
+
 ## Data Analytics Coursera
 
 [Coursera](https://github.com/vicxny/Coursera) 
