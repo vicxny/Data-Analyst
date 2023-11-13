@@ -56,7 +56,7 @@ Courses | Instructor | Type | Duration |
 [Tableau 2020 A-Z: Hands-On Tableau Training for Data Science](https://www.udemy.com/course/tableau10/) | Kirill Eremenko | Tableau | 9 hours | 
 [Tableau 20 Advanced Training: Master Tableau in Data Science](https://www.udemy.com/course/tableau10-advanced/) | Kirill Eremenko | Tableau | 10 hours | 
 [Complete Machine Learning & Data Science Bootcamp 2022](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/) | Andrei Neagoie | Data Science | 43 hours | 
-[](https://www.udemy.com/course/advanced-sql-server-masterclass-for-data-analysis/) |Travis Cuzick | SQL | 8 hours | 
+[The Advanced SQL Server Masterclass For Data Analysis](https://www.udemy.com/course/advanced-sql-server-masterclass-for-data-analysis/) |Travis Cuzick | SQL | 8 hours | 
 [Python for Data Science and Machine Learning Bootcamp](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/) | Jose Portilla | Data Science | 25 hours | 
 
 ## SQL
