@@ -111,3 +111,4 @@ Courses | Instructor | Type | Duration |
 
 [Phillip Burton](https://www.udemy.com/user/aquaviola/)
 
+[Darshil Parmar](https://www.youtube.com/@DarshilParmar/videos)
