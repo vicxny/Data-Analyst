@@ -26,8 +26,8 @@ Courses | Offered by | Type | Month | Pace |
 [IBM Data Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-engineer) | IBM | Data Engineer | Approximately 15 months | 3 hours/week |
 [Meta Database Engineer Professional Certificate](https://www.coursera.org/professional-certificates/meta-database-engineer) | Meta | Database Engineer | Approximately 10 months | 3 hours/week |
 [Microsoft Power BI Data Analyst Professional Certificate](https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst?irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=4216860&utm_content=b2c#courses)| Microsoft | Data Analytics | Approximately 11 months | 3 hours/week |
-[Microsoft Azure Data Fundamentals DP-900 Exam Prep Specialization](https://www.coursera.org/specializations/microsoft-azure-dp-900-data-fundamentals)  Microsoft | Data Engineer | Approximately 11 months | 3 hours/week |
-[Microsoft Azure Data Engineering Associate (DP-203) Professional Certificate](https://www.coursera.org/professional-certificates/microsoft-azure-dp-203-data-engineering)  Microsoft | Data Engineer | Approximately 11 months | 3 hours/week |
+[Microsoft Azure Data Fundamentals DP-900 Exam Prep Specialization](https://www.coursera.org/specializations/microsoft-azure-dp-900-data-fundamentals) | Microsoft | Data Engineer | Approximately 11 months | 3 hours/week |
+[Microsoft Azure Data Engineering Associate (DP-203) Professional Certificate](https://www.coursera.org/professional-certificates/microsoft-azure-dp-203-data-engineering) | Microsoft | Data Engineer | Approximately 11 months | 3 hours/week |
 
 
 ### Specialization
