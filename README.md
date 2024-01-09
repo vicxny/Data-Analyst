@@ -8,6 +8,7 @@ What I used to study
 [IBM Data Analyst Complete Course | Data Analyst Tutorial For Beginners](https://www.youtube.com/watch?v=1PAy6d16ADQ)
 
 [Data Analyst Bootcamp for Beginners (SQL, Tableau, Power BI, Python, Excel, Pandas, Projects, more)](https://www.youtube.com/watch?v=PSNXoAs2FtQ)
+
 [Fundamental](https://bittersweet-mall-f00.notion.site/Fundamentals-b41c33ba1ab04e858a2be06946510c7e)
 
 ## Data Analytics Coursera
